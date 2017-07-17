@@ -1,0 +1,25 @@
+java is highly portable language, it can be written in a single machine
+and run in multiple machine which are operating in different platforms.
+
+The way Java works is
+-Create a source code
+-Pass source code to Compiler which converts it into Java byte code
+-Now this Java byte code can be run in any machine which uses Java and
+bytecode is platform independent
+
+Whenever you run .java source code using javac command(javac is compiler name)
+it generates a bytecode file like .class
+
+Structure of any Java program:
+Source file
+    class
+        Method
+          statement
+        Method
+          statement
+          .
+          .
+          .
+Every Java machine must have atleast one class and one main method
+every class in application need not have a main method overall atleast
+one main method must be there.
