@@ -23,3 +23,26 @@ Source file
 Every Java machine must have atleast one class and one main method
 every class in application need not have a main method overall atleast
 one main method must be there.
+
+Every program in java is a class,once you compile the source code it
+creates a .class file and every time when we run the program we are
+actually run .class or java bytecode file.
+
+javac - is to compile the code
+ex: javac Hello.java
+
+java - is to run the code
+ex: java Hello
+
+// - for comments
+
+Boolean and integer are not compatible in java.
+ex: int q = 5
+while (q){
+
+}
+This doesn't work in java, for this to work q must be a boolean or a
+boolean condition like q == 5
+
+println : prints each item in a new line
+print: prints in a same line
